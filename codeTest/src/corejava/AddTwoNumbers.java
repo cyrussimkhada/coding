@@ -15,6 +15,8 @@ public class AddTwoNumbers {
 	public static void main(String[] args) {
 		AddTwoNumbers add = new AddTwoNumbers();
 		add.showSum(6, 3);
+		AddTwoNumbers add1 = new AddTwoNumbers();
+		add1.showSum(5, 21);
 		
 
 	}
