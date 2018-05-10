@@ -1,13 +1,21 @@
 package corejava;
 
 public class AddTwoNumbers {
-
-	public static void main(String[] args) {
-		int a = 2;
-		int b = 3;
-		
+	private int a;
+	private int b;
+	
+	
+	public void showSum(int a, int b) {
+		this.a = a;
+		this.b = b;
 		int sum = a + b;
 		System.out.println(sum);
+	}
+
+	public static void main(String[] args) {
+		AddTwoNumbers add = new AddTwoNumbers();
+		add.showSum(2, 3);
+		
 
 	}
 
