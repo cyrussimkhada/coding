@@ -17,6 +17,8 @@ public class AddTwoNumbers {
 		add.showSum(6, 3);
 		AddTwoNumbers add1 = new AddTwoNumbers();
 		add1.showSum(5, 21);
+		AddTwoNumbers add2 = new AddTwoNumbers();
+		add2.showSum(5, 22);
 		
 
 	}
