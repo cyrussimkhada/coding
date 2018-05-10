@@ -14,7 +14,7 @@ public class AddTwoNumbers {
 
 	public static void main(String[] args) {
 		AddTwoNumbers add = new AddTwoNumbers();
-		add.showSum(2, 3);
+		add.showSum(6, 3);
 		
 
 	}
